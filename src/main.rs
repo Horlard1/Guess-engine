@@ -45,3 +45,20 @@ fn new_statemet() { // uncalled function
     println!("The value of y is: {y}")
 }
 
+fn control_flow() {
+    // a condition must evaluate to bool
+    // case in action, this next few lines
+
+    // let number = 3;
+    // if number {
+    //     println!("Number was three")
+    // }  // code will not compile
+
+
+    // using if for variable declaration
+    let condition = true;
+    let number = if condition { 5} else {6} ; // note both condition blocks returns i32
+    println!("The value of number is {number}")
+}
+
+
