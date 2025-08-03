@@ -35,3 +35,13 @@ fn main() {
     }
 }
 
+fn new_statemet() { // uncalled function
+    let _y = 6;
+    // let x = (let y = 6); uncomiled code
+    let y = {
+        let x = 3;
+        x + 1
+    };
+    println!("The value of y is: {y}")
+}
+
